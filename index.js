@@ -31,10 +31,10 @@ const connectDB = async () => {
   .catch((error) => console.log('Error al conectar a MongoDB Atlas:', error.message));
 */
 
-app.use(express.json());
-app.use(cors());
+//app.use(express.json());
+//app.use(cors());
 //llama a los enrutadores de usuarios-------------
-app.use('/api/users', userRoutes);
+app.use('/users', userRoutes);
 
 //------------------------------
 
