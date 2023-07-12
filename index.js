@@ -5,7 +5,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const port = 9001;
+const port = process.env.PORT || 3000;
 
 // Configurar la conexión a MongoDB Atlas
 
