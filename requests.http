@@ -1,0 +1,8 @@
+PUT http://localhost:9001/api/Users/64acce5fe0cb11be583fa5ed
+Content-Type: application/json
+
+{
+    "nombre": "Olivia Olivares",
+    "edad": "30",
+    "email": "olivia@gmail.com"
+}
